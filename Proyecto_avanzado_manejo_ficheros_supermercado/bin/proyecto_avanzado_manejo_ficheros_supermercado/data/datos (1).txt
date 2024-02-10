@@ -1,0 +1,28 @@
+                     Descripción: Productos (ID, Nombre, Precio)
+                              Queso        5.50       1
+                                     Arroz        2.50       2
+                 . Manzanas     10.00      3
+
+# Descripcion: Clientes (ID, Nombre)
+Juanito
+Maria
+Pedro
+
+&& D3scripción: Empleados (ID, Nombre)
+EmpleadoA
+EmpleadoB
+EmpleadoC
+
+* Descr1pción: Descuentos (ID, Descripción, Valor)
+Descuento1   0.05       1
+Descuento2   0.20   $   2
+Descuento3   0.15       3
+Descuento4   0.25   $   4
+Descuento5   0.30       5
+
+% Descripci0n: Ventas (ID, ProductoID, ClienteID, EmpleadoID, DescuentoID, Cantidad, Fecha)
+1       1       1       1       1       2       2022-03-15
+2       3       2       2       2       1       2022-03-16
+3       1       3       3       3       3       2022-03-17
+4       5       5       5       5       5       2022-03-19
+5       6       6       6       6       6       2022-03-20
